@@ -2,6 +2,8 @@
 
 There is a single script *run_analysis.R* that reads the data from an **existing** directory labelled **UCI HAR Dataset.** It produces an intermediate dataset and a summary dataset entitled *tidy_data* as well as a text dump of that file. The intermediate dataset, labelled "Step_4_data" includes the mean() and std() variables included in the original sensor data sets. 
 
+The summary dataset and the processing steps are described in more detail in the *Codebook.md* and/or the *Codebook.pdf* files
+
 To run the script:
 
    1. cd to the directory containing the *UCI HAR Dataset* directory as well as the R script *run_analysis.R*. If the data has not yet been downloaded, download the zip file and expand in the directory containing the R script.
